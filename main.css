@@ -1,41 +1,107 @@
+.line{
+  padding: 2px;
+  width: 100vw;
+  background-color: rgb(77, 77, 77);
+  margin-bottom: 10px;
+}
+
 .top-main-section{
   display: flex;
-  padding: 30px 20px 0 20px;
+  justify-content: space-between;
+  margin: 0 20px 80px 20px; 
+}
+.top-main-right-section{
+  display: flex;
+}
+.top-main-right-section ul{
+  display: flex;
+  font-family: Recursive, Arial;
+  font-size: 27px;
+  font-style: italic;
+  color: rgb(144, 144, 144);
+  list-style: none;
+  gap: 47px;
+}
+
+.top-main-left-section{
+  display: flex;
+}
+.top-main-left-section img{
+  margin-right: 10px;
+}
+
+.main-content{
+  margin: 0 30px;
+  display: grid;
+  gap: 40px 70px;
+  grid-template-columns: 380px 380px 380px;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-radius: 22px;
+  color: black;
+}
+.picture-section img{
+  width: 100%;
+  margin-bottom: 20px ;
+}
+.card-title{
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-description{
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.card-footer{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+/* .top-main-section{
+  display: flex;
   position: relative;
   border-top: 3px solid rgb(77, 77, 77);
   margin-bottom: 50px;
   
 }
-.right-main-section{
+.top-right-main-section{
   display: flex;
-  gap: 40px;
-  flex: 1;
   justify-content: center;
 }
-.right-main-section div{
+.top-right-main-section ul{
   display: flex;
   align-items: center;
   font-family: Recursive, Arial;
   font-size: 27px;
   font-style: italic;
   color: rgb(144, 144, 144);
+  list-style: none;
+  gap: 20px;
 }
-.left-main-section{
+
+.top-left-main-section{
   margin-right: 50px;
   display: flex;
   gap: 10px;
 }
-.fade-effect{
+.top-left-main-section img{
+  width: 30px;
+}
+
+/* .fade-effect{
   position: absolute;
-  right: 0px;
+  right: 20px;
   top: 0;
   padding: 50px 70px;
-  /* background-image: linear-gradient(to right,rgba(35, 40, 48, 0),rgba(35, 40, 48, 1)); */
-  --mask: linear-gradient(to right,
-            rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 1) 50%,
-            rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 0) 100% 50% / 100% 100% repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
+  background-image: linear-gradient(to right,rgba(35, 40, 48, 0),rgba(35, 40, 48, 1)); 
 }
 
 .main-content{
@@ -55,4 +121,4 @@
 .picture-section img{
   object-fit: contain;
   object-position: center;
-}
+} */
