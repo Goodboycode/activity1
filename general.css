@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(35, 40, 48);
+  color: white;
+  font-family: Poppins, Arial;
+  margin: 0;
+  padding-bottom: 1000px;
+
+}
+header{
+  padding: 0 30px;
+}
+
+hr{
+  border-color: rgb(77, 77, 77);
+  border-width: 3px;
+  margin: 0;
+}

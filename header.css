@@ -1,0 +1,43 @@
+.top-section{
+  display: flex;
+  justify-content:space-between;
+}
+
+.left-link-section{
+  font-size: 30px;
+}
+
+.nav-menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav-menu ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.main-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.website-logo{
+  width: 195px;
+  margin-bottom: 30px;
+}
+.main-header .website-title{
+  font-family: Recursive, Arial;
+  font-size: 71px;
+  font-style: italic;
+  color: rgb(255, 117, 117);
+  margin-bottom: 20px;
+
+}
+.main-header div{
+  font-size: 29px;
+  margin-bottom: 50px;
+}
