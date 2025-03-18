@@ -31,7 +31,7 @@
 }
 
 .main-content{
-  margin: 0 30px;
+  margin: 0 30px 80px 30px;
   display: grid;
   gap: 40px 70px;
   grid-template-columns: 380px 380px 380px;
@@ -63,62 +63,51 @@
   gap: 20px;
 }
 
-
-
-/* .top-main-section{
-  display: flex;
-  position: relative;
-  border-top: 3px solid rgb(77, 77, 77);
-  margin-bottom: 50px;
-  
-}
-.top-right-main-section{
+.pagination{
   display: flex;
   justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+
 }
-.top-right-main-section ul{
+.pagination a{
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  font-family: Recursive, Arial;
+  font-size: 25px;
+  color: rgba(144, 144, 144, 1);
+  letter-spacing: 0em;
+}
+
+.pagination .current-page,
+.pagination a:hover{
+  color: #FF7575;
+}
+.pagination .current-page,
+.slide-hover:hover{
+  border-top: 3px solid #FF7575;
+  transition: border-top, 0.05s;
+}
+
+.footer-left-section{
   display: flex;
   align-items: center;
-  font-family: Recursive, Arial;
-  font-size: 27px;
-  font-style: italic;
-  color: rgb(144, 144, 144);
-  list-style: none;
-  gap: 20px;
+  gap: 5px;
 }
 
-.top-left-main-section{
-  margin-right: 50px;
-  display: flex;
-  gap: 10px;
-}
-.top-left-main-section img{
-  width: 30px;
+.footer-website-name{
+  font-family: "Source Code Pro", Arial;
+  font-weight: 600;
+  font-size: 30px;
 }
 
-/* .fade-effect{
-  position: absolute;
-  right: 20px;
-  top: 0;
-  padding: 50px 70px;
-  background-image: linear-gradient(to right,rgba(35, 40, 48, 0),rgba(35, 40, 48, 1)); 
+.bordered-text{
+  font-family: 'Source Code Pro', Arial;
+  font-size: 19px;
+  background-color: #4699E0;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 600;
+  letter-spacing: 0%;
 }
-
-.main-content{
-  display: grid;
-  padding: 0 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px 40px;
-}
-
-.card-container{
-  padding: 15px;
-  width: 80%;
-  background-color: white;
-  color: black;
-  border-radius: 10px;
-}
-.picture-section img{
-  object-fit: contain;
-  object-position: center;
-} */

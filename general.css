@@ -8,10 +8,15 @@ body{
   background-color: rgb(35, 40, 48);
   color: white;
   font-family: Poppins, Arial;
-  padding-bottom: 1000px;
-
-
 }
+
 header{
   padding: 0 30px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin: 20px 0 30px 0;
 }
